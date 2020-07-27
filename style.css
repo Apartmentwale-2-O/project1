@@ -1,0 +1,78 @@
+    body{
+      background-color: chartreuse;
+    }
+        
+    input[type=search]{
+      border-radius: 20px; 
+      width:initial; 
+    }
+    
+    
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .sticky + .content {
+      padding-top: 60px;
+    }
+
+
+    .navbar{
+      transition:500ms ease;
+      background:transparent;
+      position:sticky;
+    }
+    .navbar.scrolled{
+      background: rgb(250, 0, 0);
+    }
+   
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 350px;
+    caret-color:blue;
+    line-height: 30px;
+    }
+
+    
+
+    .search_icon{
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: gray;
+    text-decoration:none;
+    }
+    .nav-pills .nav-link{
+      font-family: 'Grenze Gotisch', cursive;
+      font-size:x-large ;  
+      color: black;      
+    }
+    .nav-pills .nav-link:hover{
+      color: black;
+      background: rgb(240, 236, 236);
+      border-radius: 25px;
+    }
+    .nav-pills .nav-link.active {
+      border-radius: 25px;
+      color: white;
+      background: black;
+    }
+    
